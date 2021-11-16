@@ -1,9 +1,12 @@
 import './App.css';
 
+//Importando los componentes
+import Login from './Components/Login/Login';
+
 function App() {
   return (
-    <div className="text-2xl">
-      hola mundo
+    <div className="">
+      <Login />
     </div>
   );
 }
